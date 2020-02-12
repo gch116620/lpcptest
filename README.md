@@ -76,12 +76,10 @@ npm publish
 以下为推荐使用的目录结构，如果有必要开发者也可以自行做一些调整:
 
 ```
-|--miniprogram_dev // 开发环境构建目录
-|--miniprogram_dist // 生产环境构建目录
+|--miniprogram_dev // 开发环境构建目录 构建的时候自动生成 默认没有
+|--miniprogram_dist // 生产环境构建目录 构建的时候自动生成 默认没有
 |--src // 源码
-|   |--components // 通用自定义组件
-|   |--images // 图片资源
-|   |
+|   |--assets// 静态资源
 |   |--xxx.js/xxx.wxml/xxx.json/xxx.wxss // 暴露的 js 模块/自定义组件入口文件
 |
 |--test // 测试用例
